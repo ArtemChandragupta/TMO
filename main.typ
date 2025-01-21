@@ -642,6 +642,11 @@ $ K_ш = 1/(1/(alpha_1 D_1^2) + sum_(k=1)^n 1/(2 lambda_k) (1/D_k-1/D_(k+1)) + 1
 
 Оребрение выполняется на поверхностях с низким коэффициентом теплопередачи с целью его увеличения.
 
+
+#figure(
+  image("assets/rexxxxxxxxx.png", width: 80%),
+) <fig-rexxxxxxxxx>
+
 #math.equation(block: true, numbering: none)[$ Q = "const" $]
 
 #math.equation(block: true, numbering: none)[$ cases(
@@ -662,6 +667,10 @@ $tilde(K) = 1/(1/alpha_1 + delta/lambda + 1/ tilde(alpha)_2)$ - приведён
 \
 
 *Расчет ребра прямоугольного сечения:*
+
+#figure(
+  image("assets/rereeeee.png", width: 80%),
+) <fig-rereeeee>
 
 Примем допущения:
 + $T$ меняется только по x,
@@ -709,6 +718,11 @@ $ eta = Q/Q^* = sqrt( "Bi" dot L^* ) "th" (sqrt("Bi" dot L^*)) $
 + Расчитывают тепловой поток - $Q = eta alpha F (T_W - T_f)$
 
 При большом количестве рёбер:
+
+
+#figure(
+  image("assets/rebrrrr.png", width: 80%),
+) <fig-rebrrrr>
 
 $F_p$ - площадь боковой поверхности ребра;
 $F_c$ - площадь неоребрённой поверхности;
